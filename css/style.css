@@ -1,0 +1,55 @@
+/****** General ***********/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 320px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul[title]::before {
+    content: attr(title);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+/****** Media queries ***********/
+
+@media (max-width: 768px) {
+
+    .main-container {
+        padding: 0;
+    }
+}

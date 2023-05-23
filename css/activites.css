@@ -1,0 +1,51 @@
+.activites-title {
+    margin: 65px 30px 30px 30px;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card-activites {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites-a-marseille img {
+    width: 297px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.activites-a-marseille .card-title {
+    padding: 20px 19px 20px 19px;
+}
+
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+	.activites-a-marseille {
+		width: 100%;
+	}
+
+	.card-activites img {
+		height: 200px;
+	}
+}
+
+@media (max-width: 768px) {
+    .activites-cards {
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .activites-cards img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,125 @@
+.section-recherche__title {
+    padding-left: 20px;
+    padding-bottom: 8px;
+}
+
+.section-recherche__subtitle {
+    padding-left: 20px;
+    padding-bottom: 35px;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.search-bar {
+    display: flex;
+    border-radius: 15px;
+    height: 49px;
+    width: 377px;
+    padding-left: 20px;
+}
+
+.search-bar input {
+    width: 195px;
+    border: 1px solid var(--main-bg-color);
+    border-right: none;
+    outline: none;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.search-bar button {
+    background-color: var(--main-color);
+    border: 1px solid var(--main-color);
+    width: 132px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+}
+
+.search-bar i {
+    background-color: var(--main-bg-color);
+    width: 50px;
+    color: black;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.fa-location-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .section-recherche {
+        display: none;
+    }
+
+    .search-bar__phone {
+        display: flex;
+        border-radius: 15px;
+        height: 49px;
+        width: 377px;
+        padding-left: 20px;
+    }
+    
+    .search-bar__phone input {
+        width: 195px;
+        border: 1px solid var(--main-bg-color);
+        border-right: none;
+        outline: none;
+    }
+    
+    input[type="text"] {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        text-align: center;
+    }
+    
+    input:focus::placeholder {
+        color: transparent;
+    }
+    
+    .search-bar__phone button {
+        background-color: var(--main-color);
+        border: 1px solid var(--main-color);
+        width: 49px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .section-recherche__phone .fa-location-dot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-bg-color);
+        width: 50px;
+        color: black;
+        border-bottom-left-radius: 14px;
+        border-top-left-radius: 14px;
+    }
+
+    .section-recherche__phone .fa-magnifying-glass {
+        color: white;
+    }
+}
