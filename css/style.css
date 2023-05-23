@@ -22,7 +22,7 @@ body {
     width: 100%;
     max-width: 1440px;
     min-width: 320px;
-    padding: 0 50px;
+    padding: 0px 50px;
     box-sizing: border-box;
 }
 
@@ -46,6 +46,13 @@ a {
 }
 
 /****** Media queries ***********/
+
+@media (min-width: 768px) {
+    .sectionphone {
+        display: none;
+    }
+
+}
 
 @media (max-width: 768px) {
 

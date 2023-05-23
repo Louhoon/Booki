@@ -80,10 +80,16 @@
 
 @media (max-width: 768px) {
 
+
+    .filtres-navbar a {
+        width: 100%;
+    }
+
     .filtres-navbar ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        margin-right: 20px;
     }
 
     .filtres-navbar__icons {
@@ -101,5 +107,17 @@
 @media (max-width: 343px) {
     .filtres-navbar__icons {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 392px) {
+    .filtres-navbar__icons {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 335px) {
+    .filtres-navbar__icons {
+        font-size: 11px;
     }
 }
